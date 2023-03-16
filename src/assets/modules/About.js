@@ -4,7 +4,6 @@ export default class About extends Component {
   render() {
     return (
       <>
-        {/* Art Galler Section */}
         <section className="hide-for-mobile tech-used art-gallery">
           <h2 className="reveal fade-bottom cursive">Art Gallery</h2>
           <p className="reveal fade-bottom">
@@ -14,6 +13,7 @@ export default class About extends Component {
           <button className="reveal fade-bottom" id="artrelated">
             View Gallery
           </button>
+          <img src={require("../avatar-aden.jpg")} />
         </section>
       </>
     );
