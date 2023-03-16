@@ -13,7 +13,7 @@ export default class About extends Component {
           <button className="reveal fade-bottom" id="artrelated">
             View Gallery
           </button>
-          <img src={require("../avatar-aden.jpg")} />
+          <img src={require("../images/avatar-aden.jpg")} />
         </section>
       </>
     );

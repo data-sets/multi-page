@@ -1,10 +1,15 @@
 import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 export default class Contact extends Component {
   render() {
     return (
       <>
-        {/* Art Galler Section */}
         <section className="hide-for-mobile tech-used art-gallery">
           <h2 className="reveal fade-bottom cursive">Art Gallery</h2>
           <p className="reveal fade-bottom">
