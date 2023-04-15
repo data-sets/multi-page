@@ -1,5 +1,5 @@
-@use "variables";
-@use "typography";
+@use "variables" as v;
+@use "typography" as t;
 
 *,
 ::after,
@@ -14,16 +14,16 @@ body {
 }
 
 h2 {
-  background-color: variables.$midnight-green;
-  color: variables.$white;
-  font: 100% typography.$font-stack;
+  background-color: v.$midnight-green;
+  color: v.$white;
+  font: 100% t.$font-stack;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: variables.$midnight-green;
+  background-color: v.$midnight-green;
   padding: 40px 25px 40px 25px;
 
   &__logo {
@@ -42,21 +42,21 @@ h2 {
 }
 .h_content {
   text-align: center;
-  font: 100% typography.$font-stack;
-  background-color: variables.$midnight-green;
+  font: 100% t.$font-stack;
+  background-color: v.$midnight-green;
   h1 {
     font-size: 2.55rem;
     font-weight: bold;
-    color: variables.$white;
+    color: v.$white;
     padding: 0 40px;
     line-height: 40px;
     padding-top: 20px;
   }
   span {
-    color: variables.$light-coral;
+    color: v.$light-coral;
   }
   p {
-    color: variables.$white;
+    color: v.$white;
     font-size: 0.9375rem;
     line-height: 24px;
     padding: 0 15px;
@@ -72,7 +72,8 @@ h2 {
 }
 
 .main {
-  background-color: variables.$dark-green;
+  background-color: v.$dark-green;
+  padding-bottom: 30px;
   &__desc {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -81,9 +82,12 @@ h2 {
     grid-column: span 4 / span 4;
     padding: 30px;
     margin: 30px 0;
+    font-size: 1.75rem;
+    font-weight: bold;
   }
   h2 {
-    background-color: variables.$dark-green;
+    background-color: v.$dark-green;
+    font-weight: bold;
   }
   &__pattern {
     p,
@@ -92,8 +96,63 @@ h2 {
     }
     img {
       position: relative;
-      width: 100%;
     }
+  }
+  &__featured {
+    h3 {
+      color: v.$light-coral;
+      text-align: center;
+      padding: 5px 0;
+      font-family: t.$font-stack;
+    }
+  }
+  &__card {
+    margin-bottom: 48px;
+  }
+  &__icon {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    color: v.$white;
+    font-family: t.$font-stack;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 0.9375rem;
+  }
+}
+
+.testimonial {
+  background: v.$deep-jungle-green;
+  &__shape {
+    width: 147px;
+    height: 100px;
+  }
+  h2 {
+    background: inherit;
+    font-size: 1.75rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 20px;
+  }
+  blockqoute {
+    color: v.$rapture-blue;
+  }
+  p,
+  h4 {
+    text-align: center;
+    color: v.$white;
+    font-family: t.$font-stack;
+  }
+  h4 {
+    color: v.$rapture-blue;
+  }
+  &__avatar {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 2px solid #c4fffe;
   }
 }
 // @include breakpoint(large) {

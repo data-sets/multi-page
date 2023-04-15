@@ -1,8 +1,7 @@
 import React from "react";
-import About from "./assets/modules/About";
-import Contact from "./assets/modules/Contact";
 import Main from "./assets/modules/Main";
 import Header from "./assets/modules/Header";
+import Testimonial from "./assets/modules/Testimonial";
 
 import "../src/dist/style.css";
 
@@ -12,7 +11,8 @@ export default function App() {
       <div className="App">
         <Header />
         <Main />
-        {/* <About />
+        <Testimonial />
+        {/* 
         <Contact /> */}
       </div>
     </>

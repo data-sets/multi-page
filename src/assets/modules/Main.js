@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import patter0 from "../images/bg-pattern-home-3.svg";
+import icon from "../images/icon-person.svg";
+import iconCog from "../images/icon-cog.svg";
+import iconChart from "../images/icon-chart.svg";
 
 export default class Main extends Component {
   render() {
@@ -15,22 +18,31 @@ export default class Main extends Component {
             </div>
           </div>
 
-          <div className="main_featured">
-            <div>
+          <div className="main__featured">
+            <div className="main__card">
+              <div className="main__icon">
+                <img src={icon} alt="" />
+              </div>
               <h3>Experienced Individuals</h3>
               <p>
-                Our Network is made up of hughly experienced professionals who
+                Our network is made up of highly experienced professionals who
                 are passionate about what they do.
               </p>
             </div>
-            <div>
+            <div className="main__card">
+              <div className="main__icon">
+                <img src={iconCog} alt="" />
+              </div>
               <h3>Easy to Implement</h3>
               <p>
                 Our processes have been refined over years of implementation
                 meaning our teams always deliver.
               </p>
             </div>
-            <div>
+            <div className="main__card">
+              <div className="main__icon">
+                <img src={iconChart} alt="" />
+              </div>
               <h3>Enhanced Productivity</h3>
               <p>
                 Our customized platform with in-built analytics helps you manage
