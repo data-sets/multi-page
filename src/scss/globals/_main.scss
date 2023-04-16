@@ -5,12 +5,14 @@
 ::after,
 ::before {
   margin: 0;
+  padding: 0;
   border: 0;
   box-sizing: border-box;
 }
 
 body {
   font-size: 16px;
+  background-color: v.$dark-green;
 }
 
 h2 {
@@ -18,7 +20,15 @@ h2 {
   color: v.$white;
   font: 100% t.$font-stack;
 }
-
+li,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -72,7 +82,7 @@ h2 {
 }
 
 .main {
-  background-color: v.$dark-green;
+  background-color: v.$sacramento-state-green;
   padding-bottom: 30px;
   &__desc {
     display: grid;
@@ -86,7 +96,7 @@ h2 {
     font-weight: bold;
   }
   h2 {
-    background-color: v.$dark-green;
+    background-color: inherit;
     font-weight: bold;
   }
   &__pattern {
@@ -157,6 +167,7 @@ h2 {
     color: v.$rapture-blue;
   }
   p {
+    position: relative;
     padding: 0 20px;
     z-index: 9999;
   }
@@ -172,6 +183,85 @@ h2 {
     border-radius: 50%;
     border: 2px solid #c4fffe;
     margin: 5px auto;
+  }
+  &__pattern {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+  }
+}
+
+.getstarted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: v.$light-coral;
+  text-align: center;
+  padding-top: 40px;
+  h2 {
+    position: relative;
+    top: 20px;
+    font-size: 32px;
+    background-color: inherit;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: v.$sacramento-state-green;
+  }
+  a {
+    position: relative;
+    top: 20px;
+    border: 2px solid v.$sacramento-state-green;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-family: t.$font-stack;
+    font-weight: bold;
+    color: v.$sacramento-state-green;
+  }
+  img {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+.footer {
+  position: relative;
+  background: v.$dark-green;
+  text-align: center;
+  top: -22px;
+  padding: 50px;
+  color: v.$white;
+  font-family: t.$font-stack;
+  img {
+    width: 96px;
+  }
+  &__nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+    a {
+      color: inherit;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+  p {
+    text-align: center;
+  }
+  &__info {
+    line-height: 1.5rem;
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
   }
 }
 // @include breakpoint(large) {

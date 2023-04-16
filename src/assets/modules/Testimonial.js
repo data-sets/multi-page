@@ -4,7 +4,8 @@ import avatar from "../images/avatar-kady.jpg";
 import avatar1 from "../images/avatar-aiysha.jpg";
 import avatar2 from "../images/avatar-arthur.jpg";
 import quote from "../images/icon-quotes.svg";
-
+import pattern from "../images/bg-pattern-home-5.svg";
+import pattern1 from "../images/bg-pattern-home-6-about-5.svg";
 export default class Testimonial extends Component {
   render() {
     return (
@@ -48,6 +49,19 @@ export default class Testimonial extends Component {
               </p>
               <h4>Arthur Clarke</h4>
               <img className="testimonial__avatar" src={avatar2} alt="Arthur" />
+            </div>
+            <div className="testimonial__pattern">
+              <img src={pattern} alt="" />
+            </div>
+          </div>
+        </section>
+
+        <section className="getstarted">
+          <div>
+            <h2>Ready to get started?</h2>
+            <a>contact us</a>
+            <div>
+              <img src={pattern1} />
             </div>
           </div>
         </section>
