@@ -125,9 +125,17 @@ h2 {
 
 .testimonial {
   background: v.$deep-jungle-green;
+
   &__shape {
     width: 147px;
     height: 100px;
+  }
+  &__quote {
+    display: block;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    margin: 30px auto 0 auto;
   }
   h2 {
     background: inherit;
@@ -136,7 +144,7 @@ h2 {
     font-weight: bold;
     padding: 30px 20px;
   }
-  blockqoute {
+  blockquote {
     color: v.$rapture-blue;
   }
   p,
@@ -148,11 +156,22 @@ h2 {
   h4 {
     color: v.$rapture-blue;
   }
+  p {
+    padding: 0 20px;
+    z-index: 9999;
+  }
+  &__cards {
+    h4 {
+      padding: 20px 0;
+    }
+  }
   &__avatar {
+    display: block;
     width: 62px;
     height: 62px;
     border-radius: 50%;
     border: 2px solid #c4fffe;
+    margin: 5px auto;
   }
 }
 // @include breakpoint(large) {
