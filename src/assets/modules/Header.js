@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+
 import logo from "../images/logo.svg";
 import burger from "../images/icon-hamburger.svg";
 import pattern from "../images/bg-pattern-home-2.svg";
+
 export default class Header extends Component {
   render() {
     return (
