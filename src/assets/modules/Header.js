@@ -9,7 +9,8 @@ export default class Header extends Component {
     return (
       <>
         <header>
-          <section className="header">
+          {/* Mobile Menu */}
+          <section className="header hide-for-desktop ">
             <div className="header__logo">
               <img src={logo} alt="My Team Logo" />
             </div>
@@ -19,6 +20,29 @@ export default class Header extends Component {
               </nav>
             </div>
           </section>
+          {/* End Mobile Menu */}
+
+          <section className="header hide-for-mobile container">
+            <div className="header__logo">
+              <img src={logo} alt="My Team Logo" />
+              <ul>
+                <li>
+                  <a href="/" target="_blank">
+                    home
+                  </a>
+                </li>
+                <li>
+                  <a href="/" target="_blank">
+                    about
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="header__menu">
+              <a href="/">contact us</a>
+            </div>
+          </section>
+
           <section className="h_content">
             <h1>
               Find the best <span>talent</span>

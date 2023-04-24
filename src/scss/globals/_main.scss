@@ -32,14 +32,36 @@ ul {
 a {
   text-decoration: none;
 }
+
+.container {
+  max-width: 100%;
+  width: 1110px;
+  margin: 0 auto;
+}
+header {
+  background-color: v.$midnight-green;
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: v.$midnight-green;
   padding: 40px 25px 40px 25px;
 
   &__logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    ul {
+      display: flex;
+      gap: 30px;
+      li {
+        a {
+          font-family: t.$font-stack;
+          color: v.$white;
+          font-weight: 600;
+        }
+      }
+    }
     img {
       width: 8rem;
     }
@@ -49,6 +71,17 @@ a {
       img {
         width: 20px;
         height: 17px;
+      }
+    }
+  }
+  div {
+    &:last-child {
+      a {
+        font-family: t.$font-stack;
+        color: v.$white;
+        border: 1px solid v.$white;
+        padding: 5px 20px;
+        border-radius: 30px;
       }
     }
   }
@@ -87,6 +120,7 @@ a {
 .main {
   background-color: v.$sacramento-state-green;
   padding-bottom: 30px;
+
   &__desc {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -175,6 +209,9 @@ a {
     z-index: 9999;
   }
   &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    margin: 0 50px;
     h4 {
       padding: 20px 0;
     }
@@ -195,12 +232,12 @@ a {
 }
 
 .getstarted {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   background-color: v.$light-coral;
   text-align: center;
   padding-top: 40px;
+
   h2 {
     position: relative;
     top: 20px;
@@ -269,3 +306,78 @@ a {
 }
 // @include breakpoint(large) {
 // }
+.hide-for-desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+  }
+  .getstarted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hide-for-mobile {
+    display: none;
+  }
+  .h_content {
+    margin: 0 40px;
+    h1 {
+      font-size: 56px;
+    }
+    p {
+      margin: 25px 90px 0 90px;
+    }
+  }
+  .main {
+    & > div {
+      padding: 0 40px;
+    }
+    &__card {
+      display: flex;
+      gap: 20px;
+    }
+    p,
+    h3 {
+      text-align: left;
+    }
+  }
+  .testimonial {
+    h2 {
+      padding: 0 50px;
+    }
+    &__cards {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  .h_content {
+    padding: 0;
+    margin: 0;
+    p {
+      margin: 0;
+    }
+    h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+  }
+  .main {
+    &__card {
+      display: block;
+    }
+    p,
+    h3 {
+      text-align: center;
+    }
+  }
+  .testimonial {
+    p {
+      padding: 0;
+    }
+  }
+}
