@@ -1,17 +1,10 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  NavLink,
-  Routes,
-  Route,
-} from "react-router-dom";
 
 import logo from "../images/logo.svg";
 import facebook from "../images/icon-facebook.svg";
 import twitter from "../images/icon-twitter.svg";
 import pinterest from "../images/icon-pinterest.svg";
-
-import About from "./pages/About";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -23,20 +16,10 @@ export default function Footer() {
         <div>
           <ul className="footer__nav">
             <li>
-              <a href="./pages/About" target="_blank">
-                about
-              </a>
+              <Link to="/">home</Link>
             </li>
             <li>
-              <Router>
-                <NavLink exact to="/about">
-                  about
-                </NavLink>
-
-                <Routes>
-                  <Route path="/about" element={<About />} />
-                </Routes>
-              </Router>
+              <Link to="/about">about</Link>
             </li>
           </ul>
         </div>

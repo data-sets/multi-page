@@ -1,21 +1,21 @@
-import React from "react";
-
-import Main from "./assets/modules/Main";
-import Header from "./assets/modules/Header";
-import Testimonial from "./assets/modules/Testimonial";
-import Footer from "./assets/modules/Footer";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Index from "../src/assets/modules/Index";
+import NoMatch from "../src/assets/modules/NotFound";
+import About from "../src/assets/modules/pages/About";
+import Contact from "../src/assets/modules/pages/Contact";
 import "../src/dist/style.css";
 
 export default function App() {
   return (
     <>
-      <div className="App">
-        <Header />
-        <Main />
-        <Testimonial />
-        <Footer />
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoMatch />} />
+        </Routes>
+      </Router>
     </>
   );
 }

@@ -1,12 +1,18 @@
 import React, { Component } from "react";
+import Navigation from "../Navigation";
+import Footer from "../Footer";
+import GetStarted from "../GetStarted";
+
 
 export default class About extends Component {
   render() {
     return (
       <>
-        <div>
-          <h1>About Us Page</h1>
-        </div>
+        <header>
+          <Navigation />
+        </header>
+        <GetStarted />
+        <Footer />
       </>
     );
   }

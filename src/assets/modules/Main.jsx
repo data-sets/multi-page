@@ -3,7 +3,7 @@ import patter0 from "../images/bg-pattern-home-3.svg";
 import icon from "../images/icon-person.svg";
 import iconCog from "../images/icon-cog.svg";
 import iconChart from "../images/icon-chart.svg";
-
+import pattern from "../images//bg-pattern-about-2-contact-1.svg";
 export default class Main extends Component {
   render() {
     return (

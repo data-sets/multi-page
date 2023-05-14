@@ -1,12 +1,16 @@
 import React, { Component } from "react";
+import Navigation from "../Navigation";
+import Footer from "../Footer";
 
 export default class Contact extends Component {
   render() {
     return (
       <>
-        <div>
-          <h1>Contact Us Page</h1>
-        </div>
+        <header>
+          <Navigation />
+        </header>
+
+        <Footer />
       </>
     );
   }

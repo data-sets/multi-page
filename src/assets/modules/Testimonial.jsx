@@ -6,6 +6,8 @@ import avatar2 from "../images/avatar-arthur.jpg";
 import quote from "../images/icon-quotes.svg";
 import pattern from "../images/bg-pattern-home-5.svg";
 import pattern1 from "../images/bg-pattern-home-6-about-5.svg";
+import GetStarted from "./GetStarted";
+
 export default class Testimonial extends Component {
   render() {
     return (
@@ -66,17 +68,7 @@ export default class Testimonial extends Component {
           </div>
         </section>
 
-        <section className="getstarted">
-          <div>
-            <div>
-              <h2>Ready to get started?</h2>
-              <a>contact us</a>
-            </div>
-            <div>
-              <img src={pattern1} />
-            </div>
-          </div>
-        </section>
+       <GetStarted/>
       </>
     );
   }
