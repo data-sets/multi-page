@@ -11,6 +11,7 @@ export default class Main extends Component {
         <main className="main">
           <div className="container">
             <div className="main__desc">
+              <div className="main__line"></div>
               <div className="main__title">
                 <h2>Build & manage distributed teams like no one else.</h2>
               </div>
