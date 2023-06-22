@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import patter0 from "../images/bg-pattern-home-3.svg";
+import patter1 from "../images/bg-pattern-home-3-cut.png";
 import icon from "../images/icon-person.svg";
 import iconCog from "../images/icon-cog.svg";
 import iconChart from "../images/icon-chart.svg";
@@ -16,7 +17,7 @@ export default class Main extends Component {
                 <h2>Build & manage distributed teams like no one else.</h2>
               </div>
               <div className="main__pattern">
-                <img src={patter0} alt="" />
+                <img src={patter1} alt="" />
               </div>
             </div>
 

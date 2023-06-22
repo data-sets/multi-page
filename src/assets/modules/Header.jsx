@@ -9,10 +9,10 @@ export default class Header extends Component {
       <>
         <header>
           <Navigation />
+          <div className="h_content__shape">
+            <img src={pattern1} alt="" />
+          </div>
           <section className="h_content container">
-            <div className="h_content__shape">
-              <img src={pattern1} alt="" />
-            </div>
             <h1>
               Find the best <span>talent</span>
             </h1>

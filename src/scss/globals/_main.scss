@@ -93,10 +93,10 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   padding-top: 50px;
+  position: relative;
   &__shape {
     position: absolute;
-    left: 0;
-    top: -50px;
+    left: -100px;
     img {
       width: 200px;
       height: auto;
@@ -172,6 +172,8 @@ header {
     font-weight: bold;
   }
   &__pattern {
+    position: absolute;
+    right: 0;
     p,
     h3 {
       z-index: 1;
@@ -350,6 +352,7 @@ header {
   }
 
   .main {
+    position: relative;
     &__container {
       display: flex;
       max-width: 1110px;
@@ -358,8 +361,9 @@ header {
     }
     &__pattern {
       position: absolute;
-      bottom: 0;
       right: 0;
+
+      bottom: 0;
     }
     &__title {
       h2 {
@@ -401,14 +405,14 @@ header {
           display: flex;
           justify-content: space-between;
           padding: 0 150px;
-          h2{
+          h2 {
             font-size: 2rem;
           }
         }
       }
     }
   }
-  .footer{
+  .footer {
     display: flex;
 
     justify-content: space-between;
@@ -431,7 +435,6 @@ header {
     display: none;
   }
   .h_content {
-    margin: 0 40px;
     h1 {
       font-size: 56px;
       text-align: center !important;
@@ -439,7 +442,7 @@ header {
     &__shape {
       display: none;
     }
-    &__line{
+    &__line {
       display: none;
     }
     p {
