@@ -5,7 +5,7 @@ import avatar1 from "../images/avatar-aiysha.jpg";
 import avatar2 from "../images/avatar-arthur.jpg";
 import quote from "../images/icon-quotes.svg";
 import pattern from "../images/bg-pattern-home-5.svg";
-import pattern1 from "../images/bg-pattern-home-6-about-5.svg";
+
 import GetStarted from "./GetStarted";
 
 export default class Testimonial extends Component {
@@ -68,7 +68,7 @@ export default class Testimonial extends Component {
           </div>
         </section>
 
-       <GetStarted/>
+        <GetStarted />
       </>
     );
   }
