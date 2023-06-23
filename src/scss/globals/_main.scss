@@ -36,7 +36,7 @@ a {
 
 .container {
   max-width: 100%;
-  width: 1110px;
+  width: 1280px;
   margin: 0 auto;
 }
 header {
@@ -93,7 +93,24 @@ header {
   background-color: v.$midnight-green;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-
+  padding-top: 50px;
+  position: relative;
+  &__shape {
+    position: absolute;
+    left: -100px;
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+  &__line {
+    position: relative;
+    height: 3px;
+    width: 28px;
+    background-color: v.$rapture-blue;
+    margin-bottom: 50px;
+    margin-left: 15px;
+  }
   h1 {
     font-size: 3.7rem;
     font-weight: bold;
@@ -108,7 +125,7 @@ header {
   }
   p {
     color: v.$white;
-    font-size: 0.9375rem;
+    font-size: 1rem;
     line-height: 24px;
     padding: 0 15px;
     margin-top: 20px;
@@ -123,6 +140,7 @@ header {
   div {
     p {
       text-align: left;
+      margin-bottom: 40px;
     }
   }
 }
@@ -135,9 +153,17 @@ header {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
+  &__line {
+    position: absolute;
+    height: 3px;
+    width: 32px;
+    margin-top: 30px;
+    background-color: v.$light-coral;
+  }
   &__title {
     grid-column: span 4 / span 4;
-    padding: 30px;
+    padding-top: 20px;
+    padding-right: 28px;
     margin: 30px 0;
     font-size: 1.75rem;
     font-weight: bold;
@@ -147,6 +173,8 @@ header {
     font-weight: bold;
   }
   &__pattern {
+    position: absolute;
+    right: 0;
     p,
     h3 {
       z-index: 1;
@@ -319,7 +347,83 @@ header {
   display: none;
 }
 
+@media (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+
+  .main {
+    position: relative;
+    &__container {
+      display: flex;
+      max-width: 1110px;
+      margin: 0 auto;
+      padding-top: 90px;
+    }
+    &__pattern {
+      position: absolute;
+      right: 0;
+
+      bottom: 0;
+    }
+    &__title {
+      h2 {
+        font-size: 2.25rem;
+      }
+    }
+    &__icon {
+      img {
+        width: 72px;
+        height: 72px;
+      }
+    }
+    &__card {
+      display: flex;
+      margin-bottom: 30px;
+      div {
+        padding-right: 20px;
+        p,
+        h3 {
+          text-align: left;
+        }
+        h3 {
+          padding-left: 10px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  .testimonial {
+    &__cards {
+      display: flex;
+      gap: 20px;
+    }
+  }
+  .getstarted {
+    div {
+      div {
+        &:first-child {
+          display: flex;
+          justify-content: space-between;
+          padding: 0 150px;
+          h2 {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    display: flex;
+
+    justify-content: space-between;
+  }
+}
+
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .header {
     display: flex;
   }
@@ -332,12 +436,16 @@ header {
     display: none;
   }
   .h_content {
-    margin: 0 40px;
     h1 {
       font-size: 56px;
       text-align: center !important;
     }
-
+    &__shape {
+      display: none;
+    }
+    &__line {
+      display: none;
+    }
     p {
       text-align: center !important;
     }

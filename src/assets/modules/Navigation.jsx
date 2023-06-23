@@ -37,7 +37,7 @@ export default class Header extends Component {
             </ul>
           </div>
           <div className="header__menu">
-            <Link to="/contact">contact</Link>
+            <Link to="/contact">contact us</Link>
           </div>
         </section>
       </>

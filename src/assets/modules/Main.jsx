@@ -1,21 +1,23 @@
 import React, { Component } from "react";
 import patter0 from "../images/bg-pattern-home-3.svg";
+import patter1 from "../images/bg-pattern-home-3-cut.png";
 import icon from "../images/icon-person.svg";
 import iconCog from "../images/icon-cog.svg";
 import iconChart from "../images/icon-chart.svg";
-import pattern from "../images//bg-pattern-about-2-contact-1.svg";
+
 export default class Main extends Component {
   render() {
     return (
       <>
         <main className="main">
-          <div className="container">
+          <div className="main__container">
             <div className="main__desc">
+              <div className="main__line"></div>
               <div className="main__title">
                 <h2>Build & manage distributed teams like no one else.</h2>
               </div>
               <div className="main__pattern">
-                <img src={patter0} alt="" />
+                <img src={patter1} alt="" />
               </div>
             </div>
 
