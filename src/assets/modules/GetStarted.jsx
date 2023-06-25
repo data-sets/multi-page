@@ -10,7 +10,7 @@ export default class GetStarted extends Component {
           <div>
             <div>
               <h2>Ready to get started?</h2>
-              <Link to="/contact">contact</Link>
+              <Link to="/contact">contact us</Link>
             </div>
             <div>
               <img src={pattern1} />

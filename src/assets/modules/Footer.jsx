@@ -10,18 +10,22 @@ export default function Footer() {
   return (
     <>
       <footer className="footer">
-        <a href="/">
-          <img src={logo} alt="Logo" />
-        </a>
         <div>
-          <ul className="footer__nav">
-            <li>
-              <Link to="/">home</Link>
-            </li>
-            <li>
-              <Link to="/about">about</Link>
-            </li>
-          </ul>
+          <div className="footer__logo">
+            <a href="/">
+              <img src={logo} alt="Logo" />
+            </a>
+          </div>
+          <div>
+            <ul className="footer__nav">
+              <li>
+                <Link to="/">home</Link>
+              </li>
+              <li>
+                <Link to="/about">about</Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="footer__info">
           <ul>
@@ -32,18 +36,22 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="footer__links">
-          <a href="/">
-            <img src={facebook} alt="Facebook Logo" />
-          </a>
-          <a href="/">
-            <img src={pinterest} alt="Pinterest Logo" />
-          </a>
-          <a href="/">
-            <img src={twitter} alt="Twitter Logo" />
-          </a>
+        <div>
+          <div className="footer__links">
+            <a href="/">
+              <img src={facebook} alt="Facebook Logo" />
+            </a>
+            <a href="/">
+              <img src={pinterest} alt="Pinterest Logo" />
+            </a>
+            <a href="/">
+              <img src={twitter} alt="Twitter Logo" />
+            </a>
+          </div>
+          <div className="footer__copyright">
+            <p>Copyright 2023. All Rights Reserved</p>
+          </div>
         </div>
-        <p>Copyright 2023. All Rights Reserved</p>
       </footer>
     </>
   );

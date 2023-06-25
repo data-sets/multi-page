@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "../src/assets/modules/Index";
 import NoMatch from "../src/assets/modules/NotFound";
-import About from "../src/assets/modules/pages/About";
+import About from "../src/assets/modules/pages/About/About";
 import Contact from "../src/assets/modules/pages/Contact";
 import "../src/dist/style.css";
 
