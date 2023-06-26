@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><g fill="none" fill-rule="evenodd"><path fill="#2C6269" d="M100 100H0V0h100z"/><path fill="#F67E7E" d="M100 0c55.228 0 100 44.772 100 100s-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0zm0 67c-18.225 0-33 14.775-33 33s14.775 33 33 33 33-14.775 33-33-14.775-33-33-33z"/><path fill="#79C8C7" d="M100 40v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0V8h100zm0-8v4H0V0h100z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 200" style="enable-background:new 0 0 100 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#2C6269;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#F67E7E;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#79C8C7;}
+</style>
+<g>
+	<path class="st0" d="M100,100H0V0h100V100z"/>
+	<path class="st1" d="M100,0c55.2,0,100,44.8,100,100s-44.8,100-100,100S0,155.2,0,100S44.8,0,100,0z M100,67c-18.2,0-33,14.8-33,33
+		s14.8,33,33,33s33-14.8,33-33S118.2,67,100,67z"/>
+	<path class="st2" d="M100,40v4H0v-4H100z M100,32v4H0v-4H100z M100,24v4H0v-4H100z M100,16v4H0v-4H100z M100,8v4H0V8H100z M100,0v4
+		H0V0H100z"/>
+</g>
+</svg>

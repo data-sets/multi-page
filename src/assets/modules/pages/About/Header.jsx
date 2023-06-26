@@ -9,7 +9,7 @@ const Header = () => {
       </Helmet>
 
       <header>
-        <div className="container about-header ">
+        <div className="container about-header">
           <div>
             <h1>About</h1>
           </div>

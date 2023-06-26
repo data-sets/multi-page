@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><g fill="none" fill-rule="evenodd"><path fill="#2C6269" d="M100 100h100V0H100z"/><path fill="#012F34" d="M100 0C44.772 0 0 44.772 0 100s44.772 100 100 100 100-44.772 100-100S155.228 0 100 0zm0 67c18.225 0 33 14.775 33 33s-14.775 33-33 33-33-14.775-33-33 14.775-33 33-33z"/><path fill="#79C8C7" d="M100 96v4h100v-4H100zm0-8v4h100v-4H100zm0-8v4h100v-4H100zm0-8v4h100v-4H100zm0-8v4h100v-4H100zm0-8v4h100v-4H100z"/><path fill="#F67E7E" d="M196 140v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm49-8v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm49-8v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm35-8v4h4v-4h-4zm-14 0v4h4v-4h-4zm7 0v4h4v-4h-4zm-21 0v4h4v-4h-4zm7 0v4h4v-4h-4zm35 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-42 0v4h4v-4h-4zm49-8v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm49-8v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4zm-7 0v4h4v-4h-4z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100.1 200" style="enable-background:new 0 0 100.1 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#2C6269;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#012F34;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#79C8C7;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#F67E7E;}
+</style>
+<g>
+	<path class="st0" d="M0.1,100h100V0H0.1V100z"/>
+	<path class="st1" d="M0.1,0c-55.2,0-100,44.8-100,100s44.8,100,100,100s100-44.8,100-100S55.3,0,0.1,0z M0.1,67
+		c18.2,0,33,14.8,33,33s-14.8,33-33,33s-33-14.8-33-33S-18.1,67,0.1,67z"/>
+	<path class="st2" d="M0.1,96v4h100v-4H0.1z M0.1,88v4h100v-4H0.1z M0.1,80v4h100v-4H0.1z M0.1,72v4h100v-4H0.1z M0.1,64v4h100v-4
+		H0.1z M0.1,56v4h100v-4H0.1z"/>
+	<path class="st3" d="M96.1,140v4h4v-4H96.1z M89.1,140v4h4v-4H89.1z M82.1,140v4h4v-4H82.1z M75.1,140v4h4v-4H75.1z M68.1,140v4h4
+		v-4H68.1z M61.1,140v4h4v-4H61.1z M54.1,140v4h4v-4H54.1z M47.1,140v4h4v-4H47.1z M96.1,132v4h4v-4H96.1z M89.1,132v4h4v-4H89.1z
+		 M82.1,132v4h4v-4H82.1z M75.1,132v4h4v-4H75.1z M68.1,132v4h4v-4H68.1z M61.1,132v4h4v-4H61.1z M54.1,132v4h4v-4H54.1z M47.1,132
+		v4h4v-4H47.1z M96.1,124v4h4v-4H96.1z M89.1,124v4h4v-4H89.1z M82.1,124v4h4v-4H82.1z M75.1,124v4h4v-4H75.1z M68.1,124v4h4v-4
+		H68.1z M61.1,124v4h4v-4H61.1z M54.1,124v4h4v-4H54.1z M47.1,124v4h4v-4H47.1z M82.1,116v4h4v-4H82.1z M68.1,116v4h4v-4H68.1z
+		 M75.1,116v4h4v-4H75.1z M54.1,116v4h4v-4H54.1z M61.1,116v4h4v-4H61.1z M96.1,116v4h4v-4H96.1z M89.1,116v4h4v-4H89.1z M47.1,116
+		v4h4v-4H47.1z M96.1,108v4h4v-4H96.1z M89.1,108v4h4v-4H89.1z M82.1,108v4h4v-4H82.1z M75.1,108v4h4v-4H75.1z M68.1,108v4h4v-4
+		H68.1z M61.1,108v4h4v-4H61.1z M54.1,108v4h4v-4H54.1z M47.1,108v4h4v-4H47.1z M96.1,100v4h4v-4H96.1z M89.1,100v4h4v-4H89.1z
+		 M82.1,100v4h4v-4H82.1z M75.1,100v4h4v-4H75.1z M68.1,100v4h4v-4H68.1z M61.1,100v4h4v-4H61.1z M54.1,100v4h4v-4H54.1z M47.1,100
+		v4h4v-4H47.1z"/>
+</g>
+</svg>
