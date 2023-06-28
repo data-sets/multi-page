@@ -757,7 +757,7 @@ header {
     display: none;
   }
   .hide-for-desktop {
-    display: block;
+    display: flex;
   }
 
   .testimonial {
@@ -816,6 +816,12 @@ header {
   }
 
   .getstarted {
+    z-index: 9999;
+    &__pattern {
+      z-index: -1;
+
+      bottom: -5px;
+    }
     div {
       div {
         &:first-child {
