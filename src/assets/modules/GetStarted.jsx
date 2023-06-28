@@ -7,13 +7,13 @@ export default class GetStarted extends Component {
     return (
       <>
         <section className="getstarted">
-          <div>
+          <div className="getstarted__pattern">
+            <img src={pattern1} />
+          </div>
+          <div className="getstarted__description">
             <div>
               <h2>Ready to get started?</h2>
               <Link to="/contact">contact us</Link>
-            </div>
-            <div>
-              <img src={pattern1} />
             </div>
           </div>
         </section>

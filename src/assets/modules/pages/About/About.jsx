@@ -4,6 +4,7 @@ import Footer from "../../Footer";
 import GetStarted from "../../GetStarted";
 import Header from "../About/Header";
 import Director from "../About/Director";
+import Clients from "./Clients";
 
 export default class About extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class About extends Component {
         </header>
         <Header />
         <Director />
+        <Clients />
         <GetStarted />
         <Footer />
       </>
