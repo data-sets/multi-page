@@ -42,12 +42,16 @@ a {
 header {
   background-color: v.$midnight-green;
 }
-.header {
+
+@mixin justify-center {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 25px 40px 25px;
+}
 
+.header {
+  @include justify-center;
+  padding: 40px 25px 40px 25px;
   &__logo {
     display: flex;
     align-items: center;
