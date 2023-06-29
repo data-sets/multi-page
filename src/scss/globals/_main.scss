@@ -60,6 +60,9 @@ header {
           font-family: t.$font-stack;
           color: v.$white;
           font-weight: 600;
+          &:hover {
+            color: v.$light-coral;
+          }
         }
       }
     }
@@ -83,6 +86,11 @@ header {
         border: 1px solid v.$white;
         padding: 5px 20px;
         border-radius: 30px;
+        font-weight: bold;
+        &:hover {
+          background-color: v.$white;
+          color: v.$black;
+        }
       }
     }
   }
@@ -151,6 +159,9 @@ header {
         width: 56px;
         margin: 0 auto;
         top: 25px;
+        &:hover {
+          background-color: v.$rapture-blue;
+        }
         img {
           width: 1rem;
           height: 1rem;
@@ -181,6 +192,10 @@ header {
         }
         div {
           background-color: v.$rapture-blue;
+          cursor: pointer;
+          &:hover {
+            background-color: v.$light-coral;
+          }
           img {
             transform: rotate(45deg);
           }
@@ -308,6 +323,8 @@ header {
     max-width: 100%;
     padding: 0 10px;
     margin-top: 80px;
+    position: relative;
+    margin-bottom: -4px;
   }
   div {
     p {
@@ -468,6 +485,10 @@ header {
         font-weight: bold;
         margin-bottom: 30px;
         color: v.$sacramento-state-green;
+        &:hover {
+          background-color: v.$sacramento-state-green;
+          color: v.$white;
+        }
       }
     }
   }
@@ -608,6 +629,9 @@ header {
       color: inherit;
       text-align: center;
       font-weight: bold;
+      &:hover {
+        color: v.$light-coral;
+      }
     }
   }
   p {

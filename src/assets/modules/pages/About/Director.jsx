@@ -21,38 +21,48 @@ export default function Director() {
             <img src={Avatar1} alt="Nikita Marks" />
             <h3>Nikita Marks</h3>
             <div>
-              <img src={Plus} alt="" />
+              <a href="/">
+                <img src={Plus} alt="" />
+              </a>
             </div>
           </li>
           <li>
             <img src={Avatar2} alt="Christian Duncan" />
             <h3>Christian Duncan</h3>
             <div>
-              <img src={Plus} alt="" />
+              <a href="/">
+                <img src={Plus} alt="" />
+              </a>
             </div>
           </li>
           <li>
             <img src={Avatar3} alt="Cruz Hamer" />
             <h3>Cruz Hamer</h3>
             <div>
-              <img src={Plus} alt="" />
+              <a href="/">
+                <img src={Plus} alt="" />
+              </a>
             </div>
           </li>
           <li>
             <img src={Avatar4} alt="Drake Heaton" />
             <h3>Drake Heaton</h3>
             <div>
-              <img src={Plus} alt="" />
+              <a href="/">
+                <img src={Plus} alt="" />
+              </a>
             </div>
           </li>
           <li>
             <img src={Avatar5} alt="Aden Allan" />
             <h3>Aden Allan</h3>
             <div>
-              <img src={Plus} alt="" />
+              <a href="/">
+                <img src={Plus} alt="" />
+              </a>
             </div>
           </li>
-          
+
           <li>
             <h3>Griffin Wise</h3>
             <p>
