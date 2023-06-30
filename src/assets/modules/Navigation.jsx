@@ -48,7 +48,7 @@ let styles = {
   bmItem: {
     display: "inline-block",
     padding: "30px",
-    margin: "7g0px 0 0 0",
+    margin: "70px 0 0 0",
   },
   bmOverlay: {
     background: "rgba(0, 0, 0, 0.3)",
