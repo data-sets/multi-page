@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { slide as Menu } from "react-burger-menu";
 import logo from "../images/logo.svg";
 import Shape from "../images/bg-pattern-about-1-mobile-nav-1.svg";
-
 import { Link } from "react-router-dom";
 
 let styles = {
@@ -84,13 +83,13 @@ export default class Header extends Component {
             <Menu styles={styles} right active fallDown>
               <ul>
                 <li>
-                  <a href="">home</a>
+                  <Link to="/">home</Link>
                 </li>
                 <li>
-                  <a href="">about</a>
+                  <Link to="/about">about</Link>
                 </li>
                 <li>
-                  <a href="">contact us</a>
+                  <Link to="/contact">contact us</Link>
                 </li>
               </ul>
               <div className="header__shape">
