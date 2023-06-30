@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Page</title>
+        <title>My Team - Contact Page </title>
       </Helmet>
       <header>
         <Navigation />

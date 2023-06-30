@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <>
       <Helmet>
-        <title>Multi Page</title>
+        <title>My Team - Multi Page</title>
       </Helmet>
       <Header />
       <Main />

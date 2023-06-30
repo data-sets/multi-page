@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <Helmet>
-        <title>About</title>
+        <title>My Team - About Page</title>
       </Helmet>
 
       <header>

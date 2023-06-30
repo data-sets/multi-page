@@ -1,13 +1,79 @@
 import React, { Component } from "react";
-
+import { slide as Menu } from "react-burger-menu";
 import logo from "../images/logo.svg";
-import burger from "../images/icon-hamburger.svg";
+import Shape from "../images/bg-pattern-about-1-mobile-nav-1.svg";
+
 import { Link } from "react-router-dom";
 
+let styles = {
+  bmBurgerButton: {
+    position: "fixed",
+    width: "36px",
+    height: "30px",
+    left: "36px",
+    top: "36px",
+  },
+  bmBurgerBars: {
+    background: "#373a47",
+  },
+  bmBurgerBarsHover: {
+    background: "#a90000",
+  },
+  bmCrossButton: {
+    height: "24px",
+    width: "24px",
+  },
+  bmCross: {
+    background: "#bdc3c7",
+    width: "3px",
+    height: "25px",
+  },
+  bmMenuWrap: {
+    position: "fixed",
+    height: "100%",
+  },
+  bmMenu: {
+    background: "#373a47",
+    padding: "2.5em 1.5em 0",
+    fontSize: "1.15em",
+    top: "0",
+  },
+  bmMorphShape: {
+    fill: "#373a47",
+  },
+  bmItemList: {
+    color: "#b8b7ad",
+    padding: "0.8em",
+  },
+  bmItem: {
+    display: "inline-block",
+    padding: "30px",
+    margin: "7g0px 0 0 0",
+  },
+  bmOverlay: {
+    background: "rgba(0, 0, 0, 0.3)",
+  },
+  bmBurgerButton: {
+    position: "absolute",
+    right: "36px",
+  },
+  bmMenuWrap: {
+    position: "absolute",
+    top: 0,
+  },
+  bmBurgerBars: {
+    background: "white",
+  },
+  bmMenu: {
+    background: "#2C6269",
+    height: "100vh",
+  },
+};
 export default class Header extends Component {
   render() {
     return (
       <>
+        {/* Start Mobile Menu */}
         <section className="header hide-for-desktop ">
           <div className="header__logo">
             <Link to="/">
@@ -15,9 +81,22 @@ export default class Header extends Component {
             </Link>
           </div>
           <div className="header__menu">
-            <nav>
-              <img src={burger} alt="Burger Menu" />
-            </nav>
+            <Menu styles={styles} right active fallDown>
+              <ul>
+                <li>
+                  <a href="">home</a>
+                </li>
+                <li>
+                  <a href="">about</a>
+                </li>
+                <li>
+                  <a href="">contact us</a>
+                </li>
+              </ul>
+              <div className="header__shape">
+                <img src={Shape} alt="Shape" />
+              </div>
+            </Menu>
           </div>
         </section>
         {/* End Mobile Menu */}

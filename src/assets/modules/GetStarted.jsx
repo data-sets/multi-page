@@ -8,7 +8,7 @@ export default class GetStarted extends Component {
       <>
         <section className="getstarted">
           <div className="getstarted__pattern">
-            <img src={pattern1} />
+            <img src={pattern1} alt="Pattern" />
           </div>
           <div className="getstarted__description">
             <div>

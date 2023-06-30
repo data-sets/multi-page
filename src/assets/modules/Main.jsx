@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import patter0 from "../images/bg-pattern-home-3.svg";
+
 import patter1 from "../images/bg-pattern-home-3-cut.png";
 import icon from "../images/icon-person.svg";
 import iconCog from "../images/icon-cog.svg";
