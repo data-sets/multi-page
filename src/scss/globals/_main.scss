@@ -91,6 +91,9 @@ header {
       right: 36px;
       top: 36px;
     }
+    .bm-menu-wrap {
+      z-index: 9999;
+    }
     .bm-item {
       li {
         margin-bottom: 20px;
@@ -450,7 +453,8 @@ header {
 
 .testimonial {
   background: v.$deep-jungle-green;
-
+  position: relative;
+  z-index: 1;
   &__shape {
     width: 147px;
     height: 100px;
@@ -513,6 +517,7 @@ header {
   position: relative;
   background-color: v.$light-coral;
   padding-block: 90px;
+  z-index: 1;
   &__pattern {
     position: absolute;
     bottom: 0;
@@ -1019,7 +1024,6 @@ header {
   }
 
   .getstarted {
-    z-index: 9999;
     &__pattern {
       z-index: -1;
 

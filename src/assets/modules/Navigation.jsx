@@ -5,16 +5,6 @@ import Shape from "../images/bg-pattern-about-1-mobile-nav-1.svg";
 import { Link } from "react-router-dom";
 
 let styles = {
-  bmBurgerButton: {
-    position: "fixed",
-    width: "36px",
-    height: "30px",
-    left: "36px",
-    top: "36px",
-  },
-  bmBurgerBars: {
-    background: "#373a47",
-  },
   bmBurgerBarsHover: {
     background: "#a90000",
   },
@@ -30,12 +20,14 @@ let styles = {
   bmMenuWrap: {
     position: "fixed",
     height: "100%",
+    top: 0,
   },
   bmMenu: {
-    background: "#373a47",
-    padding: "2.5em 1.5em 0",
+    background: "#2C6269",
+
     fontSize: "1.15em",
     top: "0",
+    height: "100vh",
   },
   bmMorphShape: {
     fill: "#373a47",
@@ -52,20 +44,17 @@ let styles = {
   bmOverlay: {
     background: "rgba(0, 0, 0, 0.3)",
   },
-  bmBurgerButton: {
-    position: "absolute",
-    right: "36px",
-  },
-  bmMenuWrap: {
-    position: "absolute",
-    top: 0,
-  },
+
   bmBurgerBars: {
     background: "white",
   },
-  bmMenu: {
-    background: "#2C6269",
-    height: "100vh",
+
+  bmBurgerButton: {
+    position: "absolute",
+    width: "25px",
+    height: "20px",
+    right: "36px",
+    top: "36px",
   },
 };
 export default class Header extends Component {
