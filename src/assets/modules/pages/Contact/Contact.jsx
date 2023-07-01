@@ -46,7 +46,7 @@ export default function Contact() {
                 <input type="text" name="name" placeholder="Name" />
               </div>
               <div>
-                <input type="text" name="name" placeholder="Email Address" />
+                <input type="email" name="name" placeholder="Email Address" />
               </div>
               <div>
                 <input type="text" name="name" placeholder="Company Name" />
