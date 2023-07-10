@@ -6,7 +6,29 @@ import twitter from "../images/icon-twitter.svg";
 import pinterest from "../images/icon-pinterest.svg";
 import { Link } from "react-router-dom";
 
+const dataList = [
+  {
+    id: 1,
+    detail: "987 Hillcrest Lane",
+  },
+  {
+    id: 2,
+    detail: "Irvine, CA",
+  },
+  {
+    id: 3,
+    detail: "California 92714",
+  },
+  {
+    id: 4,
+    detail: "Call Us : 949-833-7432",
+  },
+];
+
 export default function Footer() {
+  const listItems = dataList.map((data) => (
+    <li key={data.id}>{data.detail}</li>
+  ));
   return (
     <>
       <footer className="footer">
@@ -28,12 +50,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__info">
-          <ul>
-            <li>987 Hillcrest Lane</li>
-            <li>Irvine, CA</li>
-            <li>California 92714</li>
-            <li>Call Us : 949-833-7432</li>
-          </ul>
+          <ul>{listItems}</ul>
         </div>
 
         <div>

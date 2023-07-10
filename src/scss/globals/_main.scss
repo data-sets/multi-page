@@ -310,6 +310,8 @@ header {
     p {
       line-height: 1.7;
       padding-right: 30px;
+      position: relative;
+      z-index: 1;
     }
   }
   &__shape {
@@ -590,10 +592,8 @@ header {
     max-width: 1280px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 20px;
+    grid-template-columns: repeat(2, 0px);
+    padding: 60px 0 60px 20px;
     position: relative;
     z-index: 9999;
     div {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { slide as Menu } from "react-burger-menu";
+import { pushRotate as Menu } from "react-burger-menu";
 import logo from "../images/logo.svg";
 import Shape from "../images/bg-pattern-about-1-mobile-nav-1.svg";
 import { Link } from "react-router-dom";
