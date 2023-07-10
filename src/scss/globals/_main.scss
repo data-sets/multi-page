@@ -310,8 +310,6 @@ header {
     p {
       line-height: 1.7;
       padding-right: 30px;
-      position: relative;
-      z-index: 1;
     }
   }
   &__shape {
@@ -393,7 +391,7 @@ header {
 .main {
   background-color: v.$sacramento-state-green;
   padding-bottom: 30px;
-
+ 
   &__desc {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -592,7 +590,7 @@ header {
     max-width: 1280px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2, 0px);
+    grid-template-columns: 1fr 1fr;
     padding: 60px 0 60px 20px;
     position: relative;
     z-index: 9999;
