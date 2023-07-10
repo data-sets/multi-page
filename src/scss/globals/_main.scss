@@ -591,7 +591,9 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 60px 0 60px 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
     position: relative;
     z-index: 9999;
     div {
