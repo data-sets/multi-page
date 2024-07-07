@@ -13,7 +13,7 @@ export default class GetStarted extends Component {
           <div className="getstarted__description">
             <div>
               <h2>Ready to get started?</h2>
-              <Link to="/contact">contact us</Link>
+              <a href="/contact/">contact us</a>
             </div>
           </div>
         </section>

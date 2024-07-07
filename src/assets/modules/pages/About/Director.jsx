@@ -20,6 +20,7 @@ export default function Director() {
           <li>
             <img src={Avatar1} alt="Nikita Marks" />
             <h3>Nikita Marks</h3>
+            <p>Founder & CEO</p>
             <div>
               <a href="/">
                 <img src={Plus} alt="" />
@@ -29,6 +30,7 @@ export default function Director() {
           <li>
             <img src={Avatar2} alt="Christian Duncan" />
             <h3>Christian Duncan</h3>
+            <p>Co-founder & COO</p>
             <div>
               <a href="/">
                 <img src={Plus} alt="" />
@@ -38,6 +40,7 @@ export default function Director() {
           <li>
             <img src={Avatar3} alt="Cruz Hamer" />
             <h3>Cruz Hamer</h3>
+            <p>Co-founder & CTO</p>
             <div>
               <a href="/">
                 <img src={Plus} alt="" />
@@ -47,6 +50,7 @@ export default function Director() {
           <li>
             <img src={Avatar4} alt="Drake Heaton" />
             <h3>Drake Heaton</h3>
+            <p>Business Development Lead</p>
             <div>
               <a href="/">
                 <img src={Plus} alt="" />
@@ -55,7 +59,8 @@ export default function Director() {
           </li>
           <li>
             <img src={Avatar5} alt="Aden Allan" />
-            <h3>Aden Allan</h3>
+            <h3>Griffin Wise</h3>
+            <p>Lead Marketing</p>
             <div>
               <a href="/">
                 <img src={Plus} alt="" />
@@ -64,7 +69,7 @@ export default function Director() {
           </li>
 
           <li>
-            <h3>Griffin Wise</h3>
+            <h3>Aden Allan</h3>
             <p>
               “Empowered teams create truly amazing products. Set the north star
               and let them follow it.”
@@ -75,7 +80,9 @@ export default function Director() {
             </span>
 
             <div>
-              <img src={Plus} alt="" />
+              <a href="/">
+                <img src={Plus} alt="" />
+              </a>
             </div>
           </li>
         </ul>

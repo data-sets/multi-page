@@ -5,16 +5,21 @@ import About from "../src/assets/modules/pages/About/About";
 import Contact from "../src/assets/modules/pages/Contact/Contact";
 import "../src/dist/style.css";
 
+export const routes = [
+  { path: "/", element: <Index /> },
+  { path: "/about/", element: <About /> },
+  { path: "/contact/", element: <Contact /> },
+  { path: "*", element: <NoMatch /> },
+];
 export default function App() {
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoMatch />} />
-        </Routes>
+          {routes.map((route, index) => (
+            <Route key={index} path={route.path} element={route.element} />
+              ))}
+            </Routes>
       </Router>
     </>
   );

@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../images/logo.svg";
 import facebook from "../images/icon-facebook.svg";
 import twitter from "../images/icon-twitter.svg";
 import pinterest from "../images/icon-pinterest.svg";
-import { Link } from "react-router-dom";
+
+export const today = new Date();
 
 const dataList = [
   {
@@ -41,10 +43,10 @@ export default function Footer() {
           <div>
             <ul className="footer__nav">
               <li>
-                <Link to="/">home</Link>
+                <a href="/">home</a>
               </li>
               <li>
-                <Link to="/about">about</Link>
+                <a href="/about/">about</a>
               </li>
             </ul>
           </div>
@@ -55,18 +57,18 @@ export default function Footer() {
 
         <div>
           <div className="footer__links">
-            <a href="/">
+            <a href="https://www.facebook.com/" target="_blank">
               <img src={facebook} alt="Facebook Logo" />
             </a>
-            <a href="/">
+            <a href="https://ph.pinterest.com/" target="_blank">
               <img src={pinterest} alt="Pinterest Logo" />
             </a>
-            <a href="/">
+            <a href="https://twitter.com/?lang=en" target="_blank">
               <img src={twitter} alt="Twitter Logo" />
             </a>
           </div>
           <div className="footer__copyright">
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p>Copyright {today.getFullYear()}. All Rights Reserved</p>
           </div>
         </div>
       </footer>

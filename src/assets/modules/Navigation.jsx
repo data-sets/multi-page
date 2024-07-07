@@ -75,10 +75,10 @@ export default class Header extends Component {
                   <Link to="/">home</Link>
                 </li>
                 <li>
-                  <Link to="/about">about</Link>
+                  <Link to="/about/">about</Link>
                 </li>
                 <li>
-                  <Link to="/contact">contact us</Link>
+                  <Link to="/contact/">contact us</Link>
                 </li>
               </ul>
               <div className="header__shape">
@@ -99,12 +99,12 @@ export default class Header extends Component {
                 <Link to="/">home</Link>
               </li>
               <li>
-                <Link to="/about">about</Link>
+                <Link to="/about/">about</Link>
               </li>
             </ul>
           </div>
           <div className="header__menu">
-            <Link to="/contact">contact us</Link>
+            <Link to="/contact/">contact us</Link>
           </div>
         </section>
       </>

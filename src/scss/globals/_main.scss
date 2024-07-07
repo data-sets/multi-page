@@ -34,6 +34,27 @@ a {
   text-decoration: none;
 }
 
+input{
+  outline: none;
+}
+
+input:focus{
+  border: none;
+}
+textarea:focus {
+  outline: none; 
+  border: none; 
+}
+.errorMsg{
+  color: #f67e7e;
+  font-size: 12px;
+  font-family: t.$font-stack;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+
 .container {
   width: 1280px;
   max-width: 100%;
@@ -138,7 +159,7 @@ header {
         font-family: t.$font-stack;
         color: v.$white;
         border: 1px solid v.$white;
-        padding: 5px 20px;
+        padding: 10px 20px;
         border-radius: 30px;
         font-weight: bold;
         &:hover {
@@ -192,7 +213,16 @@ header {
         font-family: t.$font-stack;
         color: v.$rapture-blue;
         font-size: 1rem;
-        padding-bottom: 40px;
+                text-align: center;
+      }
+      p{
+        font-style: italic;
+        font-family: t.$font-stack;
+        color: #fff;
+
+        &:last-child{
+          font-style: normal;
+        }
       }
       & > img {
         display: inline-block;
@@ -200,9 +230,13 @@ header {
         height: auto;
         border-radius: 50%;
         margin: 0 auto;
-        padding: 15px 0 10px 0;
+        border: 2px solid #C4FFFE;
+        margin-top: 30px;
+        margin-bottom: 20px;
       }
       div {
+        
+        a{
         position: relative;
         background-color: v.$light-coral;
         border-radius: 50%;
@@ -216,6 +250,8 @@ header {
         &:hover {
           background-color: v.$rapture-blue;
         }
+        }
+        
         img {
           width: 1rem;
           height: 1rem;
@@ -245,11 +281,6 @@ header {
           padding-top: 30px;
         }
         div {
-          background-color: v.$rapture-blue;
-          cursor: pointer;
-          &:hover {
-            background-color: v.$light-coral;
-          }
           img {
             transform: rotate(45deg);
           }
@@ -367,7 +398,7 @@ header {
   p {
     color: v.$white;
     font-size: 1rem;
-    line-height: 24px;
+    line-height: 30px;
     padding: 0 15px;
     margin-top: 20px;
     font-weight: normal;
@@ -520,7 +551,7 @@ header {
   z-index: 1;
   &__pattern {
     position: absolute;
-    bottom: 0;
+    bottom: -4.5px;
   }
   &__description {
     font-family: t.$font-stack;
@@ -571,6 +602,9 @@ header {
   padding-bottom: 50px;
   background-color: v.$midnight-green;
   position: relative;
+  button{
+    font-family: t.$font-stack;
+  }
   &__shape {
     position: absolute;
     top: 20px;
@@ -637,7 +671,11 @@ header {
             padding-left: 10px;
             font-family: t.$font-stack;
             height: 90px;
+            font-size: 0.875rem;
             border-bottom: 2px solid v.$rapture-blue;
+            &::placeholder{
+              color: #ffffff3f;
+            }
           }
           div {
             input {
@@ -647,9 +685,14 @@ header {
               color: v.$white;
               padding-left: 10px;
               padding-bottom: 20px;
-              margin-bottom: 20px;
+              padding-top: 20px;
+              margin-bottom: 10px;
               font-family: t.$font-stack;
               font-size: 0.875rem;
+              max-width: 720px;
+              &::placeholder{
+                color: #ffffff3f;
+              }
             }
             button {
               font-family: t.$font-stack;
@@ -915,6 +958,7 @@ header {
     }
     p {
       text-align: center !important;
+      line-height: 1.7 ;
     }
   }
   .main {
