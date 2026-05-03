@@ -57,13 +57,21 @@ export default function Footer() {
 
         <div>
           <div className="footer__links">
-            <a href="https://www.facebook.com/" target="_blank">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={facebook} alt="Facebook Logo" />
             </a>
-            <a href="https://ph.pinterest.com/" target="_blank">
+            <a
+              href="https://ph.pinterest.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={pinterest} alt="Pinterest Logo" />
             </a>
-            <a href="https://twitter.com/?lang=en" target="_blank">
+            <a href="https://x.com/?lang=en" target="_blank" rel="noreferrer">
               <img src={twitter} alt="Twitter Logo" />
             </a>
           </div>
@@ -72,6 +80,17 @@ export default function Footer() {
           </div>
         </div>
       </footer>
+
+      <div className="footer-credit">
+        Made with ❤️ by{" "}
+        <a
+          href="https://github.com/jade-banares"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Jade Bañares
+        </a>
+      </div>
     </>
   );
 }
